@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Brain, Globe, Target } from 'lucide-react';
 
 const team = [
@@ -51,17 +51,21 @@ export default function About() {
                 The Wolfgang Legacy
               </h2>
               <p className="text-gray-600 mb-6">
-                Named after Wolfgang von Kempelen, we draw inspiration from a modern interpretation of his famous creation. Today, the term                     "Mechanical Turk" represents tasks that are too complex for machines, requiring human intelligence to solve. We've turned this concept on its head with ArT (Artificial Turk) - our innovative AI software that proves machines can now tackle these challenging business problems.
+                Named after 18th century Hungarian innovator Wolfgang von Kempelen, we draw inspiration from a modern interpretation of his renowned creation. Wolfgang sought to impress Empress Maria Theresa of Austria with his invention "Mechanical Turk" - an ostensibly autonomous chess-playing machine. Though the original objective wasn't achieved, the device, which concealed a human chess master operating the mechanism from within, toured throughout Europe and America as a captivating attraction until its eventual exposure as an ingenious hoax.
               </p>
-              <p className="text-gray-600">
-                While traditional Mechanical Turk systems rely on human intelligence for complex decision-making, our ArT software harnesses advanced AI to solve what was once thought impossible for machines. Through sophisticated algorithms and deep learning, we're demonstrating that artificial intelligence can now handle the intricate business challenges that previously required human intervention.
+              <p className="text-gray-600 mb-6">
+                
+                Today, the term "Mechanical Turk" denotes tasks that exceed machine capabilities, necessitating human intelligence for resolution. Amazon popularized this term in 2005 for their crowdsourcing platform, where human expertise addresses computational limitations, explicitly acknowledging the historical parallel to the automaton's human-driven operations.
+              </p>
 
-                This reversal represents more than just technological progress - it's a paradigm shift in how we approach complex business decisions. ArT stands as proof that AI has evolved to match and enhance human decision-making capabilities in even the most nuanced business scenarios.
+              <p className="text-gray-600 mb-6">
+
+                In a transformative shift with ArT (Artificial Turk), our innovative AI solutions have demonstrated remarkable capability to address these complex business challenges. While traditional Mechanical Turk systems depend on human intelligence for sophisticated decision-making, our ArT software leverages advanced AI to solve what was previously considered computationally infeasible. Through state-of-the-art algorithms and deep learning architecture, we're establishing that artificial intelligence can now navigate the intricate business challenges that historically demanded human intervention. This paradigm shift represents not merely technological advancement but a fundamental transformation in complex business decision-making. ArT exemplifies the evolution of AI to complement and augment human cognitive capabilities across sophisticated business scenarios.
               </p>
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                src="/photos/ArT.jpg"
                 alt="Innovation History"
                 className="rounded-lg shadow-xl"
               />
