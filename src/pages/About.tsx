@@ -13,6 +13,16 @@ const team = [
     image: '/photos/tolunay.jpg'
   },
   {
+    name: 'Sinem Elma',
+    role: 'Chief Data Officer',
+    image: '/photos/sinem.jpeg'
+  },
+  {
+    name: 'Efe Senyuva',
+    role: 'Director of Software Asset Management',
+    image: '/photos/efe.jpg'
+  },
+  {
     name: 'Katrina Anna Stiebrina',
     role: 'Head of AI Research',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'
